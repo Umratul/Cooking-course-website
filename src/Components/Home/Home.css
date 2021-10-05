@@ -1,4 +1,11 @@
 .title-section{
+
+    background-image: url('./images/bg-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 250px;
+    background-position: center;
    
-    background-color: bisque;
+
 }
+
+

@@ -1,11 +1,11 @@
  ## Live site link :
-https://gallant-hugle-fe5922.netlify.app/
+https://cooking-course-a9.netlify.app/
 
 ### Project name:
  - Cooking Studio
 
 ## About
- - This is website of cooking courses.
+ - This is a website of cooking courses.
  - We help you to be better chef.
- - After completing course you will get certificate also.
+ - You can enjoy your cooking & also get a certificate after completeing the course successfully.
 

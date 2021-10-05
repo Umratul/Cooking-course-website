@@ -1,5 +1,12 @@
 .nav-container{
-    background-color: rgba(18, 148, 148, 0.233);
-    margin: 10px;
-    padding: 10px;
+    background-color: rgb(168, 226, 226);
+    /* bg-light */
+}
+.single-nav{
+    text-decoration: none;
+    background-color: rgb(216, 235, 248)
+
+}
+.title{
+    text-decoration: none;
 }

@@ -1,6 +1,6 @@
-
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
+
 import './Home.css'
 const Home = () => {
     const [services, setServices] = useState([]);
@@ -13,16 +13,17 @@ const Home = () => {
     return (
         <div>
             <div className="title-section p-3">
-            
-                <div>
-                    <h2>Enjoy Cooking with <span className='text-danger'>Cooking Studio</span> </h2>
+               
+                <div className="p-5 bg-img">
+                   
+                    <h3 className="text-dark">Become a <span className="text-danger">Master Chef</span></h3>
                     <p>Helping you to be a chef at your own house...</p>
                 </div>
-                
+
             </div>
 
             <div>
-                <h1 className="text-primary">Our Cooking Classes</h1>
+                <h1 className="text-dark fst-italic bg-danger p-3">Our Cooking Courses</h1>
                 
             <div className="service-container">
                 {

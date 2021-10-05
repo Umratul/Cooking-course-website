@@ -1,18 +1,23 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { Form } from 'react-bootstrap';
 
 const Contact = () => {
     return (
        
-        <div className="m-5 bg-light">
-            <h1 className="bg-danger">Contact Us</h1>
+        <div className="">
+        <div className="bg-danger p-3">
+        <h1 className="fst-italic">Contact Us <FontAwesomeIcon icon={faEnvelope} /></h1>
             <p>We are always ready to serve you.
               Please contact us for any details. 
               </p> 
-            <Form>
+            </div>
+        <div className="m-5 bg-light">
+        <Form>
         <Form.Group className="m-3" controlId="exampleForm.ControlInput1">
-          <Form.Label className="bg-dark text-white p-1">Email address</Form.Label>
+          <Form.Label className="bg-dark text-white p-1 m-2">Email address</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" />
         </Form.Group>
         <Form.Group className="m-3" controlId="exampleForm.ControlTextarea1">
@@ -23,6 +28,7 @@ const Contact = () => {
     Send Message
   </Button>
       </Form>
+            </div>
         </div>
     );
 };
